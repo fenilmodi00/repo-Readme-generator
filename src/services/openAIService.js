@@ -1,4 +1,6 @@
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY
+const OPENAI_API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
+
+// const OPENAI_API_KEY = "sk-0yWHqSR7M6diKjhkm1oKmA"
 
 export const generateReadme = async (repoDetails) => {
   const response = await fetch('https://chatapi.akash.network/api/v1/chat/completions', {
@@ -8,7 +10,7 @@ export const generateReadme = async (repoDetails) => {
       'Authorization': `Bearer ${OPENAI_API_KEY}`,
     },
     body: JSON.stringify({
-      model: 'llama3-8b-instruct',
+      model: 'llama3-8b',
       messages: [
         {
           role: 'user',
