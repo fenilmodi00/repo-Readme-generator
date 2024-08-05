@@ -45,7 +45,7 @@ export const generateReadme = async (repoDetails) => {
           `
         }
       ],
-      max_tokens: 500,
+      max_tokens: 5000,
     }),
   });
 
