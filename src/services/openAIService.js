@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = "sk-0yWHqSR7M6diKjhkm1oKmA";
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY
 
 export const generateReadme = async (repoDetails) => {
   const response = await fetch('https://chatapi.akash.network/api/v1/chat/completions', {

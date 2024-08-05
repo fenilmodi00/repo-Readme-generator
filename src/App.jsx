@@ -3,6 +3,7 @@ import { fetchRepoDetails } from "./services/githubService";
 import { generateReadme } from "./services/openAIService";
 import { FaGithub } from "react-icons/fa";
 import LaunchSVG from './assets/Launch_SVG_Dark.svg';
+import AkashLogo from './assets/akash-signature-red.png';
 import "./App.css";
 import ReactMarkdown from 'react-markdown';
 
@@ -44,7 +45,7 @@ function App() {
       <div className="mx-auto container p-5">
       <div className="flex justify-center items-center pb-5">
       <div className="image-container">
-        <img className="svg-image" src={LaunchSVG} alt="Launch SVG"/>
+      <img className="aktlogo" src={AkashLogo} alt="Launch SVG"/>
         <FaGithub className="github-logo text-5xl" />
       </div>
       </div>
@@ -94,7 +95,8 @@ function App() {
         <footer>
         <h2 className="text-md font-bold mb-4 pb-5 pt-5">Developed with &#128151; by <a className="text-md font-bold" href="https://www.linkedin.com/in/Fenilmodi-li/" target="__blank">Fenil Modi</a></h2>
         </footer>
-      </div>
+        </div>
+      
   );
 }
 
