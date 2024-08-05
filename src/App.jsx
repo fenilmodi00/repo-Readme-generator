@@ -92,7 +92,7 @@ function App() {
         )}
         
         <footer>
-        <h2 className="text-md font-bold mb-4 pb-5 pt-5">Developed with &#128151; by <a className="text-md font-bold" href="https://www.linkedin.com/in/mrunankpawar/" target="__blank">Mrunank Pawar</a></h2>
+        <h2 className="text-md font-bold mb-4 pb-5 pt-5">Developed with &#128151; by <a className="text-md font-bold" href="https://www.linkedin.com/in/Fenilmodi-li/" target="__blank">Fenil Modi</a></h2>
         </footer>
       </div>
   );
