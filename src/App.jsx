@@ -3,7 +3,7 @@ import { fetchRepoDetails } from "./services/githubService";
 import { generateReadme } from "./services/openAIService";
 import { FaGithub } from "react-icons/fa";
 import LaunchSVG from './assets/Launch_SVG_Dark.svg';
-import AkashLogo from './assets/akash-signature-red.png';
+import AkashLogo from './assets/akash-signature-red.svg';
 import "./App.css";
 import ReactMarkdown from 'react-markdown';
 
